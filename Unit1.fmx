@@ -1,0 +1,51 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 686
+  ClientWidth = 972
+  FormFactor.Width = 1920
+  FormFactor.Height = 1080
+  FormFactor.Devices = [dkDesktop]
+  OnKeyDown = FormKeyDown
+  object PaintBox1: TPaintBox
+    Height = 625.000000000000000000
+    Position.X = 32.000000000000000000
+    Position.Y = 32.000000000000000000
+    Width = 729.000000000000000000
+    OnMouseDown = PaintBox1MouseDown
+    OnPaint = PaintBox1Paint
+  end
+  object SpeedButton2: TSpeedButton
+    Height = 89.000000000000000000
+    Position.X = 776.000000000000000000
+    Position.Y = 40.000000000000000000
+    StaysPressed = True
+    Text = #1056#1080#1089#1086#1074#1072#1085#1080#1077' '#1083#1086#1084#1072#1085#1085#1086#1081
+    Width = 177.000000000000000000
+    OnClick = SpeedButton2Click
+  end
+  object SpeedButton3: TSpeedButton
+    Height = 89.000000000000000000
+    Position.X = 776.000000000000000000
+    Position.Y = 128.000000000000000000
+    StaysPressed = True
+    Text = #1056#1080#1089#1086#1074#1072#1085#1080#1077' '#1084#1085#1086#1075#1086#1091#1075#1086#1083#1100#1085#1080#1082#1072
+    Width = 177.000000000000000000
+    OnClick = SpeedButton3Click
+  end
+  object ListBox1: TListBox
+    Touch.InteractiveGestures = [igPan]
+    Height = 273.000000000000000000
+    Position.X = 784.000000000000000000
+    Position.Y = 384.000000000000000000
+    Width = 177.000000000000000000
+    OnClick = ListBox1Click
+  end
+  object Timer1: TTimer
+    Interval = 1
+    OnTimer = Timer1Timer
+    Left = 808
+    Top = 224
+  end
+end
