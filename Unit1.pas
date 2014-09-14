@@ -6,7 +6,8 @@ uses
   Windows,System.SysUtils, System.Types, System.UITypes, System.Rtti, System.Classes,
   System.Variants, FMX.Types, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.Objects,
   Data.Bind.EngExt, Fmx.Bind.DBEngExt, System.Bindings.Outputs,
-  Data.Bind.Components, FMX.Layouts, FMX.ListBox,Unit2;
+  Data.Bind.Components, FMX.Layouts, FMX.ListBox,Unit2, FMX.StdCtrls,
+  FMX.Graphics;
 
 type
   TForm1 = class(TForm)

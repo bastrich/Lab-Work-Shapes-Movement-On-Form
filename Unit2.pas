@@ -2,7 +2,7 @@ unit Unit2;
 
 interface
 
-uses System.SysUtils,System.Types,System.UITypes,System.Generics.Collections,FMX.Types,FMX.Dialogs;
+uses System.SysUtils,System.Types,System.UITypes,System.Generics.Collections,FMX.Types,FMX.Dialogs, FMX.Graphics;
 
 type
 
